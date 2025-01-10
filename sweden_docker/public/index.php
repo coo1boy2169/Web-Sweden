@@ -109,11 +109,33 @@ $connection = database_connect();
         <section class="highscores_container" id="leaderboard">
             <h2>Highscores</h2>
             <div class="leaderboard">
-                <div class="player-box">
+            <?php
+                $sql = "SELECT * FROM scores ORDER BY score DESC LIMIT 5";
+                $result = $connection->query($sql);
+
+                $rank = 1; // Initialize rank counter
+                while ($row = $result->fetch_assoc()) {
+                ?>
+                    <div class="player-box">
+                        <div class="rank-circle">#<?php echo $rank; ?></div> <!-- Display rank -->
+                        <div class="player-info">
+                            <span class="player-name"><?php echo htmlspecialchars($row['username']); ?></span>
+                            <span class="stat">
+                                <img src="./assets/images/diamand.png" alt="Diamonds">
+                                <?php echo htmlspecialchars($row['score']); ?>
+                            </span>
+                        </div>
+                    </div>
+                <?php
+                    $rank++; // Increment rank for the next player
+                }
+                ?>
+
+                <!-- <div class="player-box">
                     <div class="rank-circle">#1</div>
                     <div class="player-info">
                         <span class="player-name">PLAYER NAME</span>
-                        <span class="stat"><img src="./assets/images/diamand.png" alt="Diamonds"> 54</span>
+                        <span class="stat"><img src="./assets/images/diamand.png" alt="Diamonds">3</span>
                     </div>
                 </div>
                 <div class="player-box">
@@ -143,7 +165,8 @@ $connection = database_connect();
                         <span class="player-name">PLAYER NAME</span>
                         <span class="stat"><img src="./assets/images/diamand.png" alt="Diamonds"> 38</span>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </section>
     </div>
