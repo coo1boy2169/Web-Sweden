@@ -35,7 +35,7 @@ body {
     background: linear-gradient(165deg, #0B0E14, #505968, #0B0E14);
 }
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
     padding: 15px 5%;
@@ -53,6 +53,12 @@ nav {
 .logo_img {
     color: #FFF;
     height: 130%;
+    transition:0.2s;
+ 
+}
+ 
+.logo_img:hover {
+    scale: 1.1;
 }
 
 ul {
@@ -128,7 +134,7 @@ ul li a:hover {
     color: white;
 
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -439,17 +445,18 @@ footer {
 .team-section {
     text-align: center;
     padding: 50px;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: linear-gradient(165deg, #2e3a53, #687c9f, #0B0E14);
 }
 
 .team-section h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: #333;
+    color: #ffffff;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
 }
 
 .team-container {
@@ -494,7 +501,7 @@ footer {
 
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
-    nav {
+    header {
         flex-direction: row;
         align-items: flex-start;
     }

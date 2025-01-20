@@ -11,7 +11,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
+    <header>
         <a href="index.php" class="logo"><img src="./assets/images/logo_V1.png" class="logo_img" alt=""></a>
         <input type="checkbox" id="checkbox">
         <label for="checkbox" id="icon">
@@ -26,7 +26,7 @@
             <li><a href="#leaderboard">Leaderboard</a></li>
             <li><a href="#" class="CTA">Play now!</a></li>
         </ul>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -74,8 +74,8 @@
                 <li class="features_item">
                     <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="">
                     <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
-                    <h3>Titel</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam doloribus nam? Eaque consequatur veniam ipsum odit! Itaque, facilis unde!</p>
+                    <h3>Trains</h3>
+                    <p>Create, Upgrade and explore the transportation of sweden and netherlands to keep your city eco friendly!</p>
                 </li>
             </ul>
         </section>
@@ -95,10 +95,10 @@
                     </div>
                     <div class="accordion-item">
                         <button id="accordion-button-2" aria-expanded="false">
-                            <span class="accordion-title">Whats the purpose of the game?</span><span class="icon" aria-hidden="true"></span>
+                            <span class="accordion-title">Whats the aim of the game?</span><span class="icon" aria-hidden="true"></span>
                         </button>
                         <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                            <p>The aim of the game is to create an eco-friendly train system to collect and transport resources.</p>
                         </div>
                     </div>
                     <div class="accordion-item">

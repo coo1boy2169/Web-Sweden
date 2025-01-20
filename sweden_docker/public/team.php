@@ -11,7 +11,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
+    <header>
         <a href="index.php" class="logo"><img src="./assets/images/logo_V1.png" class="logo_img" alt=""></a>
         <input type="checkbox" id="checkbox">
         <label for="checkbox" id="icon">
@@ -21,12 +21,12 @@
         </label>
         <ul>
             <li><a href="team.php">Team</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#leaderboard">Leaderboard</a></li>
-            <li><a href="#" class="CTA">Play now!</a></li>
+            <li><a href="index.php">Features</a></li>
+            <li><a href="index.php">FAQ</a></li>
+            <li><a href="index.php">Leaderboard</a></li>
+            <li><a href="index.php" class="CTA">Play now!</a></li>
         </ul>
-    </nav>
+    </header>
 
     <section class="team-section">
     <h1>Meet our Dutch team</h1>
@@ -57,22 +57,22 @@
       <div class="team-member">
         <img src="./assets/images/persons/idk.jpg" alt="Team Member 1">
         <h3>Patryk Skulski</h3>
-        <p>IDK</p>
+        <p>Game Developer</p>
       </div>
       <div class="team-member">
-        <img src="./assets/images/persons/empty.jpg" alt="Team Member 2">
+        <img src="./assets/images/persons/samuel.jpg" alt="Team Member 2">
         <h3>Samuel ängsas Brömster</h3>
-        <p>IDK</p>
+        <p>Game Developer</p>
       </div>
       <div class="team-member">
-        <img src="./assets/images/persons/empty.jpg" alt="Team Member 3">
+        <img src="./assets/images/persons/kirlos.jpg" alt="Team Member 3">
         <h3>Kirlos Azar</h3>
-        <p>IDK</p>
+        <p>Game Artist</p>
       </div>
       <div class="team-member">
-        <img src="./assets/images/persons/empty.jpg" alt="Team Member 4">
+        <img src="./assets/images/persons/lovisa.jpg" alt="Team Member 4">
         <h3>Lovisa Schröder</h3>
-        <p>IDK</p>
+        <p>Game Artist</p>
       </div>
     </div>
   </section>
