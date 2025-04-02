@@ -172,35 +172,46 @@ ul li a:hover {
     padding: 5rem;
     color: white;
 }
-
 .features_list {
     display: flex;
-    flex-direction: row;
-    gap: 5rem;
+    gap: 20px;
 }
-
-.features_item>img {
-    width: 100%;
-    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.4);
+.card-features {
+    display: flex;
+    text-align: start;
 }
-
-.feature_span_1,
-.feature_span_2 {
-    font-size: small;
+.feature_span_1 {
+    color: #FFDF5E;
+    margin-right: 5px;
     font-weight: bold;
 }
-
-.feature_span_1 {
-    color: #eecb3f;
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-.features_item>h3 {
-    text-shadow: 5px 5px 15px rgba(18, 18, 18, 0.3);
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
-
-.features_item>p {
-    color: rgb(213, 213, 213);
-    text-shadow: 5px 5px 5px rgba(11, 14, 20);
+.card-content {
+    flex: 1;
+    background-color: #464f60;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-description {
+    flex: 1;
 }
 
 .faq_container {
@@ -549,10 +560,14 @@ footer {
         /* Adjust gap */
     }
 
-    .features_item>img {
+    .features_item > img {
         width: 100%;
-        /* Ensure images are responsive */
+        height: 200px; /* Adjust as needed */
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.4);
     }
+    
 
     .player-box {
         flex-direction: row;

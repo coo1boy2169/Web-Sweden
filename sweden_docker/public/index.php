@@ -59,6 +59,37 @@
         <section class="features_container" id="features">
             <h2>Features</h2>
             <ul class="features_list">
+
+                <div class="card">
+                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="Image 1">
+                    <div class="card-content">
+                    <div class="card-features">
+                            <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
+                        </div>                        <div class="card-title">Title 1</div>
+                        <div class="card-description">Description for the first item goes here.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="Image 2">
+                    <div class="card-content">
+                    <div class="card-features">
+                            <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
+                        </div>                        <div class="card-title">Title 1</div>
+                        <div class="card-description">Description for the first item goes here.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="Image 3">
+                    <div class="card-content">
+                        <div class="card-features">
+                            <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
+                        </div>
+                        <div class="card-title">Title 1</div>
+                        <div class="card-description">Description for the first item goes here.</div>
+                    </div>
+                </div>
+            </ul>
+            <!-- <ul class="features_list">
                 <li class="features_item">
                     <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="" class="feature_img">
                     <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
@@ -66,18 +97,18 @@
                     <p>You want to play together with your friend you can!!! Our game has LAN connection so if u want to play this game with a friend you can do that if you are on the same internet connection</p>
                 </li>
                 <li class="features_item">
-                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="">
+                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="" class="feature_img">
                     <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
                     <h3>Team work</h3>
                     <p>You and your friend need to gather materials to help each other grow your train station you play against other people so be the fastest and compare your times with others</p>
                 </li>
                 <li class="features_item">
-                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="">
+                    <img src="https://i0.wp.com/www.bishoprook.com/wp-content/uploads/2021/05/placeholder-image-gray-16x9-1.png?ssl=1" alt="" class="feature_img">
                     <span class="feature_span_1">GAME FEATURE </span><span class="feature_span_2">| 09/01/2025</span>
                     <h3>Trains</h3>
                     <p>Create, Upgrade and explore the transportation of sweden and netherlands to keep your city eco friendly!</p>
                 </li>
-            </ul>
+            </ul> -->
         </section>
 
         <!-- FAQ Section -->
